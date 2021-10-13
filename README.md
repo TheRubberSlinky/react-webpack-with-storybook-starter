@@ -1,4 +1,4 @@
 # React Webpack with Storybook Starter
 ## Default env
-PORT=6001
-SKIP_PREFLIGHT_CHECK=true
+<code>PORT=6001</code> <br>
+<code>SKIP_PREFLIGHT_CHECK=true</code>
