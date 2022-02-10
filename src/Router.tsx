@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Index";
 import About from "./pages/About/Index";
 import Contact from "./pages/Contact/Index";
+import DnD from "./pages/Dnd/Index";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact-us" component={Contact} />
+          <Route exact path="/dnd" component={DnD} />
         </Switch>
       </div>
     </Router>

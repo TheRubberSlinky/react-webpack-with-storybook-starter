@@ -25,6 +25,7 @@ export const Navbar: React.FC<Props> = ({ loading }) => {
                 <NavItem link="/">Home</NavItem>
                 <NavItem link="/about">About</NavItem>
                 <NavItem link="/contact-us">Contact Us</NavItem>
+                <NavItem link="/dnd">Drag n Drop</NavItem>
               </>
             )}
           </NavItemsWrapper>
